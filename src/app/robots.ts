@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/dashboard"],
       },
     ],
-    sitemap: "https://shiplog.dev/sitemap.xml",
+    sitemap: "https://shiplog.deependventures.com/sitemap.xml",
   };
 }

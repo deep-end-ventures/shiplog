@@ -32,12 +32,21 @@ export function Footer() {
           </div>
 
           <div>
+            <h4 className="font-semibold text-text-primary mb-4">Free Tools</h4>
+            <ul className="space-y-2">
+              <li><Link href="/ai-changelog-generator" className="text-sm text-text-secondary hover:text-text-primary transition-colors">AI Changelog Generator</Link></li>
+              <li><Link href="/automated-release-notes" className="text-sm text-text-secondary hover:text-text-primary transition-colors">Automated Release Notes</Link></li>
+              <li><Link href="/changelog-widget" className="text-sm text-text-secondary hover:text-text-primary transition-colors">Changelog Widget</Link></li>
+              <li><Link href="/blog" className="text-sm text-text-secondary hover:text-text-primary transition-colors">Blog</Link></li>
+            </ul>
+          </div>
+
+          <div>
             <h4 className="font-semibold text-text-primary mb-4">Product</h4>
             <ul className="space-y-2">
               <li><Link href="/changelog" className="text-sm text-text-secondary hover:text-text-primary transition-colors">Changelog</Link></li>
               <li><Link href="/pricing" className="text-sm text-text-secondary hover:text-text-primary transition-colors">Pricing</Link></li>
               <li><Link href="/docs" className="text-sm text-text-secondary hover:text-text-primary transition-colors">Documentation</Link></li>
-              <li><Link href="/blog" className="text-sm text-text-secondary hover:text-text-primary transition-colors">Blog</Link></li>
             </ul>
           </div>
 
