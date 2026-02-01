@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { blogPosts } from "@/lib/blog-data";
+import { EmailCapture } from "@/components/email-capture";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -17,6 +18,13 @@ export default function BlogPage() {
           Insights on changelog automation, release notes, and developer tools.
         </p>
       </div>
+
+      <EmailCapture
+        variant="card"
+        title="Get Developer Productivity Tips"
+        description="Changelog automation insights and release note strategies, delivered to your inbox."
+        source="blog-listing"
+      />
 
       <div className="space-y-8">
         {blogPosts.map((post) => (

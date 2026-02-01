@@ -1,4 +1,45 @@
 import Link from "next/link";
+import { EmailCapture } from "@/components/email-capture";
+
+const faqs = [
+  {
+    question: "What is an AI-powered changelog generator?",
+    answer: "ShipLog connects to your GitHub repo and uses AI to read your commits, PRs, and releases. It automatically writes clear, human-friendly changelog entries — no more copy-pasting git logs.",
+  },
+  {
+    question: "How does ShipLog compare to manually writing changelogs?",
+    answer: "Manual changelogs take 30-60 minutes per release. ShipLog generates them in seconds, with consistent formatting, proper categorization (Added/Fixed/Improved), and user-friendly language.",
+  },
+  {
+    question: "Can I customize the output format?",
+    answer: "Absolutely. Choose categories, labels, colors, and grouping. Export as Markdown, embed via our widget, or use the API. Your changelogs match your brand perfectly.",
+  },
+  {
+    question: "Does ShipLog support private repos?",
+    answer: "Yes. Free plans support public repos. Pro and Business plans support private repos with secure GitHub OAuth integration.",
+  },
+  {
+    question: "Is there a free tier?",
+    answer: "Yes! ShipLog is free forever for public repos. Generate unlimited changelogs, get a hosted changelog page, and embed the widget — all at $0.",
+  },
+  {
+    question: "How do I embed the changelog widget?",
+    answer: "Just add a single script tag to your website. The widget loads your latest changelog entries in a beautiful, responsive format that matches your site. Takes under a minute.",
+  },
+];
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer,
+    },
+  })),
+};
 
 const features = [
   {
@@ -61,6 +102,10 @@ const features = [
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-accent/5 to-transparent pointer-events-none" />
@@ -198,6 +243,29 @@ export default function Home() {
               </div>
               <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
               <p className="text-text-secondary text-sm leading-relaxed">{feature.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Email Capture */}
+      <EmailCapture
+        title="Get Changelog & Release Note Tips"
+        description="Developer productivity insights, changelog automation strategies, and early access to ShipLog features."
+        source="homepage"
+      />
+
+      {/* FAQ */}
+      <section id="faq" className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-24">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Frequently Asked Questions</h2>
+          <p className="text-text-secondary text-lg">Everything you need to know about ShipLog.</p>
+        </div>
+        <div className="space-y-6">
+          {faqs.map((faq, i) => (
+            <div key={i} className="rounded-xl border border-border bg-bg-card p-6">
+              <h3 className="text-lg font-semibold text-text-primary mb-2">{faq.question}</h3>
+              <p className="text-text-secondary leading-relaxed">{faq.answer}</p>
             </div>
           ))}
         </div>

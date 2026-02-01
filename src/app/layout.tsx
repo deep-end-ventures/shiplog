@@ -26,11 +26,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Deep End Ventures", url: "https://deependventures.com" }],
   creator: "Deep End Ventures",
-  metadataBase: new URL("https://shiplog.dev"),
+  metadataBase: new URL("https://shiplog.deependventures.com"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://shiplog.dev",
+    url: "https://shiplog.deependventures.com",
     siteName: "ShipLog",
     title: "ShipLog — AI-Powered Changelog & Release Notes Generator",
     description:

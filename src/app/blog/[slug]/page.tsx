@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { blogPosts } from "@/lib/blog-data";
+import { EmailCapture } from "@/components/email-capture";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({ slug: post.slug }));
@@ -210,6 +211,13 @@ export default async function BlogPostPage({
         </header>
 
         <div className="prose-custom">{renderMarkdown(post.content)}</div>
+
+        <EmailCapture
+          variant="inline"
+          title="Liked this post?"
+          description="Get more changelog and release note tips delivered to your inbox."
+          source={`blog-${post.slug}`}
+        />
 
         {/* CTA */}
         <div className="mt-16 rounded-xl border border-accent/20 bg-accent/5 p-8 text-center">
