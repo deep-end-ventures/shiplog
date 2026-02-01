@@ -153,7 +153,7 @@ export default function DocsPage() {
   "release": {
     "version": "2.4.0",
     "title": "New Features & Fixes",
-    "date": "2025-01-31",
+    "date": "2026-01-31",
     "changes": [
       { "category": "added", "text": "New dashboard analytics" },
       { "category": "fixed", "text": "Widget loading performance" }

@@ -25,7 +25,7 @@ export const sampleReleases: Release[] = [
   {
     id: "v2.3.0",
     version: "2.3.0",
-    date: "2025-01-31",
+    date: "2026-01-31",
     title: "AI Summarization & Widget Themes",
     description: "Major update with AI-powered commit summarization and customizable widget themes.",
     changes: [
@@ -41,7 +41,7 @@ export const sampleReleases: Release[] = [
   {
     id: "v2.2.0",
     version: "2.2.0",
-    date: "2025-01-22",
+    date: "2026-01-22",
     title: "Embeddable Widget & API",
     description: "Launch of the embeddable changelog widget and public REST API.",
     changes: [
@@ -56,7 +56,7 @@ export const sampleReleases: Release[] = [
   {
     id: "v2.1.0",
     version: "2.1.0",
-    date: "2025-01-15",
+    date: "2026-01-15",
     title: "GitHub App & Auto-Detection",
     description: "Seamless GitHub App integration with automatic release detection.",
     changes: [
@@ -70,7 +70,7 @@ export const sampleReleases: Release[] = [
   {
     id: "v2.0.0",
     version: "2.0.0",
-    date: "2025-01-08",
+    date: "2026-01-08",
     title: "ShipLog 2.0 — Complete Rewrite",
     description: "Ground-up rewrite with new AI engine, beautiful timeline UI, and team features.",
     changes: [

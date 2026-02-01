@@ -10,7 +10,7 @@ export default function TermsPage() {
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
       <h1 className="text-4xl font-bold mb-8">Terms of Service</h1>
       <div className="space-y-6 text-text-secondary text-sm leading-relaxed">
-        <p>Last updated: January 31, 2025</p>
+        <p>Last updated: January 31, 2026</p>
         <h2 className="text-xl font-semibold text-text-primary mt-8">1. Acceptance of Terms</h2>
         <p>By using ShipLog, you agree to these Terms of Service. ShipLog is operated by Deep End Ventures.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-8">2. Service Description</h2>

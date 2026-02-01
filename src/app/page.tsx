@@ -133,7 +133,7 @@ export default function Home() {
                 <div>
                   <div className="flex items-center gap-3 mb-2">
                     <h3 className="font-semibold text-text-primary">Version 2.1.0</h3>
-                    <span className="text-xs text-text-muted">Jan 28, 2025</span>
+                    <span className="text-xs text-text-muted">Jan 28, 2026</span>
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">
@@ -160,7 +160,7 @@ export default function Home() {
                 <div>
                   <div className="flex items-center gap-3 mb-2">
                     <h3 className="font-semibold text-text-primary">Version 2.0.0</h3>
-                    <span className="text-xs text-text-muted">Jan 15, 2025</span>
+                    <span className="text-xs text-text-muted">Jan 15, 2026</span>
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">

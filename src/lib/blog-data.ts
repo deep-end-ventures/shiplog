@@ -12,10 +12,10 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: "ai-changelog-generator-complete-guide",
-    title: "The Complete Guide to AI Changelog Generators in 2025",
+    title: "The Complete Guide to AI Changelog Generators in 2026",
     description:
       "Learn how AI changelog generators save developers hours every sprint by automatically creating human-readable release notes from Git commits and pull requests.",
-    date: "2025-01-30",
+    date: "2026-01-30",
     readTime: "8 min read",
     author: "ShipLog Team",
     tags: ["AI changelog generator", "release notes", "developer tools"],
@@ -99,15 +99,15 @@ Setting up AI-powered changelogs takes less than 5 minutes:
   },
   {
     slug: "automated-release-notes-best-practices",
-    title: "Automated Release Notes: Best Practices for Dev Teams in 2025",
+    title: "Automated Release Notes: Best Practices for Dev Teams in 2026",
     description:
       "A comprehensive guide to automating your release notes workflow. Learn how to set up automated release notes that keep your users informed without manual effort.",
-    date: "2025-01-25",
+    date: "2026-01-25",
     readTime: "6 min read",
     author: "ShipLog Team",
     tags: ["automated release notes", "CI/CD", "DevOps"],
     content: `
-## The State of Release Notes in 2025
+## The State of Release Notes in 2026
 
 Release notes have evolved from an afterthought to a critical part of the developer experience. Users expect transparency, and investors want to see shipping velocity. Automated release notes solve both problems.
 
@@ -209,10 +209,10 @@ ShipLog automates your entire release notes workflow for free (public repos) or 
   },
   {
     slug: "best-changelog-tools-for-developers",
-    title: "The 7 Best Changelog Tools for Developers (2025 Comparison)",
+    title: "The 7 Best Changelog Tools for Developers (2026 Comparison)",
     description:
-      "Compare the top changelog tools for developers in 2025. Features, pricing, and which one is right for your team — from free to enterprise.",
-    date: "2025-01-20",
+      "Compare the top changelog tools for developers in 2026. Features, pricing, and which one is right for your team — from free to enterprise.",
+    date: "2026-01-20",
     readTime: "10 min read",
     author: "ShipLog Team",
     tags: ["changelog tool for developers", "comparison", "developer tools"],
@@ -221,7 +221,7 @@ ShipLog automates your entire release notes workflow for free (public repos) or 
 
 Choosing a changelog tool is more important than it sounds. Your changelog is often the first place users check after an update, the first thing investors look at to gauge shipping speed, and a key part of your developer experience.
 
-Here's our honest comparison of the top changelog tools in 2025.
+Here's our honest comparison of the top changelog tools in 2026.
 
 ## 1. ShipLog — Best for AI-Powered Generation
 

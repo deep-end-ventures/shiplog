@@ -10,7 +10,7 @@ export default function PrivacyPage() {
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
       <h1 className="text-4xl font-bold mb-8">Privacy Policy</h1>
       <div className="space-y-6 text-text-secondary text-sm leading-relaxed">
-        <p>Last updated: January 31, 2025</p>
+        <p>Last updated: January 31, 2026</p>
         <h2 className="text-xl font-semibold text-text-primary mt-8">1. Information We Collect</h2>
         <p>When you use ShipLog, we collect information you provide directly, including your GitHub account details (username, email, repository data), changelog entries you create, and usage analytics.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-8">2. How We Use Your Information</h2>
