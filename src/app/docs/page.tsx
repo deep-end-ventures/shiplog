@@ -60,7 +60,7 @@ export default function DocsPage() {
 {`<!-- ShipLog Changelog Widget -->
 <div id="shiplog-widget"></div>
 <script
-  src="https://shiplog.dev/widget.js"
+  src="https://shiplog.deependventures.com/widget.js"
   data-project="your-project-id"
   data-theme="dark"
   data-limit="5"
@@ -107,7 +107,7 @@ export default function DocsPage() {
               <p className="text-text-secondary text-sm mb-3">List all releases for a project.</p>
               <pre className="rounded-lg bg-bg-primary border border-border p-4 text-sm text-text-secondary overflow-x-auto">
 {`curl -H "Authorization: Bearer YOUR_API_KEY" \\
-  https://shiplog.dev/api/v1/releases?project=your-project-id`}
+  https://shiplog.deependventures.com/api/v1/releases?project=your-project-id`}
               </pre>
             </div>
 
@@ -119,7 +119,7 @@ export default function DocsPage() {
               <p className="text-text-secondary text-sm mb-3">Get a specific release by version.</p>
               <pre className="rounded-lg bg-bg-primary border border-border p-4 text-sm text-text-secondary overflow-x-auto">
 {`curl -H "Authorization: Bearer YOUR_API_KEY" \\
-  https://shiplog.dev/api/v1/releases/2.3.0`}
+  https://shiplog.deependventures.com/api/v1/releases/2.3.0`}
               </pre>
             </div>
 
@@ -133,7 +133,7 @@ export default function DocsPage() {
 {`curl -X POST -H "Authorization: Bearer YOUR_API_KEY" \\
   -H "Content-Type: application/json" \\
   -d '{"version":"2.4.0","title":"New Release","changes":[...]}' \\
-  https://shiplog.dev/api/v1/releases`}
+  https://shiplog.deependventures.com/api/v1/releases`}
               </pre>
             </div>
           </div>

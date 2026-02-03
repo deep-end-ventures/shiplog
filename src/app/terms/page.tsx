@@ -22,7 +22,7 @@ export default function TermsPage() {
         <h2 className="text-xl font-semibold text-text-primary mt-8">5. Limitation of Liability</h2>
         <p>ShipLog is provided &ldquo;as is&rdquo; without warranties. Deep End Ventures is not liable for any damages arising from your use of the service.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-8">6. Contact</h2>
-        <p>For questions about these terms, contact us at legal@shiplog.dev or visit <a href="https://deependventures.com" className="text-accent-light hover:underline">deependventures.com</a>.</p>
+        <p>For questions about these terms, contact us at legal@deependventures.com or visit <a href="https://deependventures.com" className="text-accent-light hover:underline">deependventures.com</a>.</p>
       </div>
     </div>
   );

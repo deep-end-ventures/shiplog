@@ -3,7 +3,7 @@ export function JsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "ShipLog",
-    url: "https://shiplog.dev",
+    url: "https://shiplog.deependventures.com",
     description: "AI-powered changelog and release notes generator for developers",
     creator: {
       "@type": "Organization",

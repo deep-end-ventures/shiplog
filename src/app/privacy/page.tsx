@@ -20,7 +20,7 @@ export default function PrivacyPage() {
         <h2 className="text-xl font-semibold text-text-primary mt-8">4. Data Security</h2>
         <p>We implement industry-standard security measures to protect your data. Repository access tokens are encrypted at rest and in transit.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-8">5. Contact</h2>
-        <p>For privacy inquiries, contact us at privacy@shiplog.dev or visit <a href="https://deependventures.com" className="text-accent-light hover:underline">deependventures.com</a>.</p>
+        <p>For privacy inquiries, contact us at privacy@deependventures.com or visit <a href="https://deependventures.com" className="text-accent-light hover:underline">deependventures.com</a>.</p>
       </div>
     </div>
   );

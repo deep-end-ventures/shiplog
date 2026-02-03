@@ -165,7 +165,7 @@ export default function Home() {
             <div className="h-3 w-3 rounded-full bg-error/60" />
             <div className="h-3 w-3 rounded-full bg-warning/60" />
             <div className="h-3 w-3 rounded-full bg-success/60" />
-            <span className="ml-3 text-xs text-text-muted">shiplog.dev/changelog</span>
+            <span className="ml-3 text-xs text-text-muted">shiplog.deependventures.com/changelog</span>
           </div>
           <div className="p-6 sm:p-8">
             <div className="space-y-6">
